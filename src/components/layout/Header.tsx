@@ -4,7 +4,7 @@ import UnstyledLink from '@/components/links/UnstyledLink';
 
 const links = [
   { href: '/about', label: 'About' },
-  { href: '/', label: 'Route 2' },
+  { href: '/writing', label: 'Writing' },
 ];
 
 export default function Header() {

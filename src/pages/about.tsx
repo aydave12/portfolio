@@ -10,6 +10,7 @@ type Job = {
   company: string;
   companyUrl: string;
   role: string;
+  location: string;
   startDate: string;
   endDate: string;
 };
@@ -19,6 +20,7 @@ const jobs: Job[] = [
     company: 'Everlytic',
     companyUrl: 'https://everlytic.com',
     role: 'Senior Software Engineer & Team Lead',
+    location: 'Johannesburg, South Africa',
     startDate: '2018-09-01',
     endDate: '2022-05-01',
   },
@@ -26,6 +28,7 @@ const jobs: Job[] = [
     company: 'Accelerate Sales',
     companyUrl: 'https://acceleratesales.co.za',
     role: 'Software Engineer',
+    location: 'Johannesburg, South Africa',
     startDate: '2016-11-01',
     endDate: '2018-09-01',
   },
@@ -33,6 +36,7 @@ const jobs: Job[] = [
     company: 'Experience Marketing & Events',
     companyUrl: '/',
     role: 'Software Engineer',
+    location: 'Centurion, South Africa',
     startDate: '2015-07-01',
     endDate: '2016-10-01',
   },
@@ -40,6 +44,7 @@ const jobs: Job[] = [
     company: 'Readira Media',
     companyUrl: '/',
     role: 'Graphics Designer/Web Developer',
+    location: 'Gezina, South Africa',
     startDate: '2015-05-01',
     endDate: '2015-07-01',
   },
@@ -47,6 +52,7 @@ const jobs: Job[] = [
     company: 'CIN Media',
     companyUrl: '/',
     role: 'Web Developer',
+    location: 'Johannesburg, South Africa',
     startDate: '2014-05-01',
     endDate: '2015-04-01',
   },
@@ -54,6 +60,7 @@ const jobs: Job[] = [
     company: 'New Horizons System Solution',
     companyUrl: '/',
     role: 'Web Development Instructor',
+    location: 'Lagos, Nigeria',
     startDate: '2012-10-01',
     endDate: '2013-12-01',
   },
@@ -61,6 +68,7 @@ const jobs: Job[] = [
     company: 'Jwitlon Consulting',
     companyUrl: '/',
     role: 'Web Developer',
+    location: 'Lagos, Nigeria',
     startDate: '2012-08-01',
     endDate: '2013-09-01',
   },
@@ -68,6 +76,7 @@ const jobs: Job[] = [
     company: 'AGL Consulting',
     companyUrl: '/',
     role: 'Systems Engineer',
+    location: 'Lagos, Nigeria',
     startDate: '2010-10-01',
     endDate: '2011-09-01',
   },
@@ -86,7 +95,7 @@ const getJobDifference = (job: Job): string => {
 const About = () => {
   return (
     <Layout>
-      <Seo templateTitle='Home' />
+      <Seo templateTitle='About' />
       <div>
         <h1 className='text-5xl text-white'>Ade</h1>
         <small>
@@ -139,8 +148,8 @@ const About = () => {
               >
                 The Office
               </UnstyledLink>{' '}
-              is the best tv of all time), love afrobeats and taking walks in
-              nature.
+              is the best tv show of all time), love afrobeats and taking walks
+              in nature.
             </p>
           </div>
         </div>
@@ -156,7 +165,7 @@ const About = () => {
                 >
                   {job.company}
                 </UnstyledLink>{' '}
-                &bull; Johannesburg, South Africa
+                &bull; {job.location}
               </p>
               <p>
                 {dayjs(job.startDate).format('MMM YYYY')} –{' '}
