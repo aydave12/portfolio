@@ -25,12 +25,13 @@ jobs:
           node-version: 16
 
       - run: yarn install
-      - run: npm run build
-        env:
-          CI: true
+
+      - name: Build App
+        run: npm run build && npm run export && touch ./out/.nojekyll
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
-          branch: main
-          folder: out
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: out
