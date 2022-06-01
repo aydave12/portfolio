@@ -19,7 +19,7 @@ const articlesWritten: Article[] = [
   {
     title: 'HateItOrLoveIt: Data classes?',
     link: 'https://dev.to/trussdamola/hateitorloveit-data-classes-5bob',
-    date: 'July, 2020',
+    date: 'Jul, 2020',
   },
   {
     title: 'How to add Ionicons to your Angular 6 apps',
@@ -51,7 +51,7 @@ const academicPapers: Article[] = [
     title:
       'Development and evaluation of a system for normalizing Internet slangs in social media texts',
     link: 'http://www.iaeng.org/publication/WCECS2015/WCECS2015_pp418-423.pdf',
-    date: 'Aug, 2021',
+    date: 'Oct, 2015',
   },
 ];
 
