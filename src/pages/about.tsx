@@ -34,7 +34,7 @@ const jobs: Job[] = [
   },
   {
     company: 'Experience Marketing & Events',
-    companyUrl: '/',
+    companyUrl: '',
     role: 'Software Engineer',
     location: 'Centurion, South Africa',
     startDate: '2015-07-01',
@@ -42,7 +42,7 @@ const jobs: Job[] = [
   },
   {
     company: 'Readira Media',
-    companyUrl: '/',
+    companyUrl: '',
     role: 'Graphics Designer/Web Developer',
     location: 'Gezina, South Africa',
     startDate: '2015-05-01',
@@ -50,7 +50,7 @@ const jobs: Job[] = [
   },
   {
     company: 'CIN Media',
-    companyUrl: '/',
+    companyUrl: '',
     role: 'Web Developer',
     location: 'Johannesburg, South Africa',
     startDate: '2014-05-01',
@@ -58,7 +58,7 @@ const jobs: Job[] = [
   },
   {
     company: 'New Horizons System Solution',
-    companyUrl: '/',
+    companyUrl: 'https://newhorizonsnigeria.com',
     role: 'Web Development Instructor',
     location: 'Lagos, Nigeria',
     startDate: '2012-10-01',
@@ -66,7 +66,7 @@ const jobs: Job[] = [
   },
   {
     company: 'Jwitlon Consulting',
-    companyUrl: '/',
+    companyUrl: '',
     role: 'Web Developer',
     location: 'Lagos, Nigeria',
     startDate: '2012-08-01',
@@ -74,7 +74,7 @@ const jobs: Job[] = [
   },
   {
     company: 'AGL Consulting',
-    companyUrl: '/',
+    companyUrl: 'https://www.aglconsulting.net',
     role: 'Systems Engineer',
     location: 'Lagos, Nigeria',
     startDate: '2010-10-01',
@@ -160,8 +160,10 @@ const About = () => {
               <h4 className='font-medium text-white'>{job.role}</h4>
               <p>
                 <UnstyledLink
-                  href='https://www.manutd.com'
-                  className='text-white underline'
+                  href={job.companyUrl}
+                  className={`text-white ${
+                    job.companyUrl !== '' && 'underline'
+                  }`}
                 >
                   {job.company}
                 </UnstyledLink>{' '}
