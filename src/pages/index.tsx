@@ -1,10 +1,9 @@
 import * as React from 'react';
+import { IoArrowForwardSharp } from 'react-icons/io5';
 
 import Layout from '@/components/layout/Layout';
-import ArrowLink from '@/components/links/ArrowLink';
 import UnderlineLink from '@/components/links/UnderlineLink';
 import Seo from '@/components/Seo';
-
 /**
  * SVGR Support
  * Caveat: No React Props Type.
@@ -27,12 +26,13 @@ export default function HomePage() {
           Product-Minded Software Engineer who enjoys solving problems and
           creating value in a product.
         </p>
-        <ArrowLink
-          href='/'
+        <a
+          href='/files/Adedoja_Adedamola_resume.pdf'
+          download
           className='mt-16 border-0 text-gray-100 hover:text-gray-500'
         >
-          Download my resume
-        </ArrowLink>
+          Download my resume <IoArrowForwardSharp className='inline-block' />
+        </a>
       </div>
     </Layout>
   );
