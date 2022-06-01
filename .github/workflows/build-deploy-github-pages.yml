@@ -29,9 +29,6 @@ jobs:
         env:
           CI: true
 
-      - name: Export static files
-        run: npm run export
-
       - name: Add .nojekyll file
         run: touch ./out/.nojekyll
 
