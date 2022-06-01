@@ -79,7 +79,7 @@ const Writing = () => {
         <p className='py-8'>
           While getting my degrees, I wrote a couple of academic papers, which I
           am very proud of as a lot of work went into the experiments and then
-          the writing of the papers
+          the writing of the papers.
         </p>
         <div>{displayWriting(academicPapers)}</div>
         <h1 className='pt-16 text-5xl text-white'>Articles</h1>
