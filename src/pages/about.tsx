@@ -96,6 +96,7 @@ const About = () => {
         <div className='grid grid-cols-1 gap-8 pt-8 pb-3 md:grid-cols-2'>
           <div className='relative h-96 overflow-hidden rounded'>
             <NextImage
+              width='500'
               src='https://media-exp1.licdn.com/dms/image/C4D03AQF829VJK9nqmg/profile-displayphoto-shrink_800_800/0/1598215409867?e=1659571200&v=beta&t=1PCO29Lwoi2i1lpjOk5SlHd0dIrCc4cmaweigzuagho'
               alt='Picture of the author'
               layout='fill'
