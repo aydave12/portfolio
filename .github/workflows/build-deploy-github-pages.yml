@@ -1,38 +1,30 @@
 name: Build and Deploy
 on: [push]
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./src
+
+    strategy:
+      matrix:
+        node-version: [14.x]
 
     steps:
-      - name: Checkout 🛎️
+      - name: Get files
         uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v2
         with:
-          persist-credentials: false
-
-      - name: Cache  💾
-        uses: actions/cache@v2
+          node-version: ${{ matrix.node-version }}
+      - name: Install packages
+        run: npm ci
+      - name: Build project
+        run: npm run build
+      - name: Export static files
+        run: npm run export
+      - name: Add .nojekyll file
+        run: touch ./out/.nojekyll
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
-          path: ${{ github.workspace }}/.next/cache
-          key: ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}
-
-      - name: Setup Node Version
-        uses: actions/setup-node@v3
-        with:
-          node-version: 16
-
-      - run: yarn install
-      - run: npm run build
-        env:
-          CI: true
-
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@3.6.2
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: master
-          FOLDER: out
-          CLEAN: true
+          branch: master
+          folder: out
