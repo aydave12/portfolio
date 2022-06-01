@@ -27,7 +27,7 @@ export default function HomePage() {
           creating value in a product.
         </p>
         <a
-          href='/files/resume.pdf'
+          href='/files/Adedoja_Adedamola_resume.pdf'
           download
           className='mt-16 border-0 text-gray-100 hover:text-gray-500'
         >
