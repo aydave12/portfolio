@@ -22,7 +22,7 @@ const jobs: Job[] = [
     role: 'Senior Software Engineer & Team Lead',
     location: 'Johannesburg, South Africa',
     startDate: '2018-09-01',
-    endDate: '2022-05-01',
+    endDate: dayjs().format('YYYY-MM-DD'),
   },
   {
     company: 'Accelerate Sales',
@@ -155,7 +155,7 @@ const About = () => {
         </div>
         <h3 className='pt-12 pb-4 text-white'>Career</h3>
         <div>
-          {jobs.map((job: Job) => (
+          {jobs.map((job: Job, index: number) => (
             <div key={job.company} className='py-6'>
               <h4 className='font-medium text-white'>{job.role}</h4>
               <p>
@@ -169,8 +169,10 @@ const About = () => {
               </p>
               <p>
                 {dayjs(job.startDate).format('MMM YYYY')} –{' '}
-                {dayjs(job.endDate).format('MMM YYYY')} &bull;{' '}
-                {getJobDifference(job)}
+                {index === 0
+                  ? 'Present'
+                  : dayjs(job.endDate).format('MMM YYYY')}{' '}
+                &bull; {getJobDifference(job)}
               </p>
             </div>
           ))}
