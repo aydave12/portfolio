@@ -13,6 +13,11 @@ jobs:
         with:
           persist-credentials: false
 
+      - name: Setup Node Version
+        uses: actions/setup-node@v3
+        with:
+          node-version: 14
+
       - name: Cache  💾
         uses: actions/cache@v2
         with:
