@@ -25,60 +25,20 @@ const jobs: Job[] = [
     endDate: dayjs().format('YYYY-MM-DD'),
   },
   {
-    company: 'Accelerate Sales',
-    companyUrl: 'https://acceleratesales.co.za',
-    role: 'Software Engineer',
-    location: 'Johannesburg, South Africa',
-    startDate: '2016-11-01',
-    endDate: '2018-09-01',
+    company: 'Unilever NA',
+    companyUrl: 'https://www.unilever.com/',
+    role: 'Cloud DevOps Engineer',
+    location: 'Trumbull, CT',
+    startDate: '2017-06-01',
+    endDate: '2021-08-01',
   },
   {
-    company: 'Experience Marketing & Events',
-    companyUrl: '',
-    role: 'Software Engineer',
-    location: 'Centurion, South Africa',
-    startDate: '2015-07-01',
-    endDate: '2016-10-01',
-  },
-  {
-    company: 'Readira Media',
-    companyUrl: '',
-    role: 'Graphics Designer/Web Developer',
-    location: 'Gezina, South Africa',
-    startDate: '2015-05-01',
-    endDate: '2015-07-01',
-  },
-  {
-    company: 'CIN Media',
-    companyUrl: '',
-    role: 'Web Developer',
-    location: 'Johannesburg, South Africa',
-    startDate: '2014-05-01',
-    endDate: '2015-04-01',
-  },
-  {
-    company: 'New Horizons System Solution',
-    companyUrl: 'https://newhorizonsnigeria.com',
-    role: 'Web Development Instructor',
-    location: 'Lagos, Nigeria',
-    startDate: '2012-10-01',
-    endDate: '2013-12-01',
-  },
-  {
-    company: 'Jwitlon Consulting',
-    companyUrl: '',
-    role: 'Web Developer',
-    location: 'Lagos, Nigeria',
-    startDate: '2012-08-01',
-    endDate: '2013-09-01',
-  },
-  {
-    company: 'AGL Consulting',
-    companyUrl: 'https://www.aglconsulting.net',
-    role: 'Systems Engineer',
-    location: 'Lagos, Nigeria',
-    startDate: '2010-10-01',
-    endDate: '2011-09-01',
+    company: 'LocalTech LLC',
+    companyUrl: 'https://thelocaltechs.com/',
+    role: 'Cloud Engineer',
+    location: 'Trumbull, CT',
+    startDate: '2013-04-01',
+    endDate: '2017-06-01',
   },
 ];
 
@@ -134,9 +94,9 @@ const About = () => {
               , at Reed Exhibitions.
             </p>
             <p className='mt-6'>
-              I am a{' '}
+              I am an{' '}
               <UnstyledLink
-                href='https://www.manutd.com'
+                href='https://www.arsenal.com'
                 className='font-semibold text-white underline'
               >
                 Arsenal FC
@@ -144,11 +104,11 @@ const About = () => {
               Fan, a Slight Gamer(
               <UnstyledLink
                 className='font-semibold text-white underline'
-                href='https://www.imdb.com/title/tt0386676/'
+                href='https://www.playstation.com/en-us/god-of-war/'
               >
-                FIFA & God of War
+                God of War
               </UnstyledLink>{' '}
-              are the best games of all time), love God & Good music and taking walks
+              is the best games of all time), I love God, Good music and taking walks
               in nature.
             </p>
           </div>
