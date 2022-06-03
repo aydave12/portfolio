@@ -17,11 +17,11 @@ type Job = {
 
 const jobs: Job[] = [
   {
-    company: 'Everlytic',
-    companyUrl: 'https://everlytic.com',
-    role: 'Senior Software Engineer & Team Lead',
-    location: 'Johannesburg, South Africa',
-    startDate: '2018-09-01',
+    company: 'Reed Exhibitions',
+    companyUrl: 'https://rxglobal.com',
+    role: 'Cloud / Devops Engineer',
+    location: 'Norwalk, CT',
+    startDate: '2021-08-01',
     endDate: dayjs().format('YYYY-MM-DD'),
   },
   {
@@ -97,7 +97,7 @@ const About = () => {
     <Layout>
       <Seo templateTitle='About' />
       <div>
-        <h1 className='text-5xl text-white'>Ade</h1>
+        <h1 className='text-5xl text-white'>Ayo</h1>
         <small>
           *Pronounced <span className='font-bold italic text-white'>a-day</span>{' '}
           (i.e an apple <i className='font-bold text-white'>a day</i>){' '}
@@ -116,7 +116,7 @@ const About = () => {
           <div className='leading-8'>
             <p>
               <span className='font-semibold text-white'>
-                My name is Adedamola Adedoja
+                My name is Ayo Oluyinka
               </span>
               , I am a product engineer based in the United States, with a
               passion for creating value in a product, solving complex
@@ -126,12 +126,12 @@ const About = () => {
             <p className='mt-6'>
               I am currently a{' '}
               <UnstyledLink
-                href='https://www.everlytic.com'
+                href='https://www.rxglobal.com'
                 className='font-semibold text-white underline'
               >
-                Senior Software Engineer & Team Lead
+                Cloud & DevOps Engineer
               </UnstyledLink>
-              , at everlytic.
+              , at Reed Exhibitions.
             </p>
             <p className='mt-6'>
               I am a{' '}
@@ -139,16 +139,16 @@ const About = () => {
                 href='https://www.manutd.com'
                 className='font-semibold text-white underline'
               >
-                Manchester United
+                Arsenal FC
               </UnstyledLink>{' '}
-              Fan, a tv show aficionado (
+              Fan, a Slight Gamer(
               <UnstyledLink
                 className='font-semibold text-white underline'
                 href='https://www.imdb.com/title/tt0386676/'
               >
-                The Office
+                FIFA & God of War
               </UnstyledLink>{' '}
-              is the best tv show of all time), love afrobeats and taking walks
+              are the best games of all time), love God & Good music and taking walks
               in nature.
             </p>
           </div>

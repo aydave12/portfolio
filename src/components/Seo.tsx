@@ -4,10 +4,10 @@ import { useRouter } from 'next/router';
 import { openGraph } from '@/lib/helper';
 
 const defaultMeta = {
-  title: 'Ade',
-  siteName: 'Adedoja Adedamola - Product Engineer',
-  description: 'Portfolio for Adedoja Adedamola',
-  url: 'https://ade-portfolio.vercel.app',
+  title: 'Ayo',
+  siteName: 'Ayo Oluyinka - Cloud / Devops Engineer',
+  description: 'Portfolio for Ayo Oluyinka',
+  url: 'https://portfolio-ayo.vercel.app',
   type: 'website',
   robots: 'follow, index',
   image: '',

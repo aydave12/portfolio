@@ -21,28 +21,28 @@ const footerLinks: FooterLink[] = [
     icon: (
       <IoLogoLinkedin className='ml-1 inline-block opacity-0 transition-opacity duration-1000 ease-out group-hover:opacity-100' />
     ),
-    link: 'https://www.linkedin.com/in/adeadedoja/',
+    link: 'https://www.linkedin.com/in/ayo-oluyinka/',
   },
   {
     name: 'github',
     icon: (
       <IoLogoGithub className='ml-1 inline-block opacity-0 transition-opacity duration-1000 ease-out group-hover:opacity-100' />
     ),
-    link: 'https://github.com/ade1705',
+    link: 'https://github.com/aydave12',
   },
   {
     name: 'twitter',
     icon: (
       <IoLogoTwitter className='ml-1 inline-block opacity-0 transition-opacity duration-1000 ease-out group-hover:opacity-100' />
     ),
-    link: 'https://twitter.com/TrussDamola',
+    link: 'https://twitter.com/aydave',
   },
   {
     name: 'instagram',
     icon: (
       <IoLogoInstagram className='ml-1 inline-block opacity-0 transition-opacity duration-1000 ease-out group-hover:opacity-100' />
     ),
-    link: 'https://www.instagram.com/trussdamola/',
+    link: 'https://www.instagram.com/aydave12/',
   },
 ];
 
