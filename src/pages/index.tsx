@@ -17,10 +17,10 @@ export default function HomePage() {
     <Layout>
       <Seo templateTitle='Home' />
       <div className='flex flex-col justify-center'>
-        <h1 className='mt-4 text-6xl text-gray-100'>Adedoja Adedamola</h1>
+        <h1 className='mt-4 text-6xl text-gray-100'>Ayomide Oluyinka</h1>
         <p className='mt-8 text-gray-100'>
-          Senior Software Engineer & Team Lead at{' '}
-          <UnderlineLink href='www.everlytic.com'>Everlytic</UnderlineLink>
+          Cloud Engineer at{' '}
+          <UnderlineLink href='https://rxglobal.com/'>Reed Exhibitions</UnderlineLink>
         </p>
         <p className='mt-2 text-sm text-gray-500'>
           Product-Minded Software Engineer who enjoys solving problems and
