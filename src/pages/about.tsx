@@ -99,14 +99,14 @@ const About = () => {
       <div>
         <h1 className='text-5xl text-white'>Ayo</h1>
         <small>
-          *Pronounced <span className='font-bold italic text-white'>a-day</span>{' '}
-          (i.e an apple <i className='font-bold text-white'>a day</i>){' '}
+          *Pronounced <span className='font-bold italic text-white'>a-your</span>{' '}
+          (i.e an apple <i className='font-bold text-white'>a yo</i>){' '}
         </small>
         <div className='grid grid-cols-1 gap-8 pt-8 pb-3 md:grid-cols-2'>
           <div className='relative h-96 overflow-hidden rounded'>
             <NextImage
               width='500'
-              src='https://media-exp1.licdn.com/dms/image/C4D03AQF829VJK9nqmg/profile-displayphoto-shrink_800_800/0/1598215409867?e=1659571200&v=beta&t=1PCO29Lwoi2i1lpjOk5SlHd0dIrCc4cmaweigzuagho'
+              src='https://media-exp1.licdn.com/dms/image/C4E03AQH8Gx5Z1NV8BQ/profile-displayphoto-shrink_800_800/0/1538532362005?e=1659571200&v=beta&t=tm1U9oARLAICwU-cBkL_gCFaHlmR000ZS0fErDacPbE'
               alt='Picture of the author'
               layout='fill'
               objectFit='cover'
@@ -118,10 +118,10 @@ const About = () => {
               <span className='font-semibold text-white'>
                 My name is Ayo Oluyinka
               </span>
-              , I am a product engineer based in the United States, with a
-              passion for creating value in a product, solving complex
-              architectural problems while still delivering an incredible
-              experience to end users.
+              , Experienced IT professional with skills including 
+              but not limited to capturing applications’ functional 
+              and non-function requirements, mapping requirements to a 
+              set of AWS services
             </p>
             <p className='mt-6'>
               I am currently a{' '}
