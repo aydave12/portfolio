@@ -99,7 +99,7 @@ const About = () => {
               >
                 Arsenal FC
               </UnstyledLink>{' '}
-              Fan, a Slight Gamer(
+              Fan, a Slight Gamer who believes(
               <UnstyledLink
                 className='font-semibold text-white underline'
                 href='https://www.playstation.com/en-us/god-of-war/'
