@@ -82,13 +82,13 @@ const About = () => {
               Deployments in the Cloud, leveraging IaC tools, CI/CD, and DevOps processes
             </p>
             <p className='mt-6'>
-              I am currently a{' '}
-                Cloud & DevOps Engineer
+              I am currently a
+                Cloud & DevOps Engineer, at{' '}
               <UnstyledLink
                 href='https://www.rxglobal.com'
                 className='font-semibold text-white underline'
               >
-              , at Reed Exhibitions.
+              Reed Exhibitions.
               </UnstyledLink>
             </p>
             <p className='mt-6'>
