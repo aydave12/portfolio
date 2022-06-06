@@ -79,16 +79,16 @@ const About = () => {
                 My name is Ayo Oluyinka
               </span>
               , An Experienced Cloud & DevOps Engineer with hands on experience, povisioning, supporting, automating and monitoring 
-              Deployments in the Cloud, leveraging Iac tools, CI/CD, and DevOps processes
+              Deployments in the Cloud, leveraging IaC tools, CI/CD, and DevOps processes
             </p>
             <p className='mt-6'>
               I am currently a{' '}
-                Cloud & DevOps Engineer, at
+                Cloud & DevOps Engineer
               <UnstyledLink
                 href='https://www.rxglobal.com'
                 className='font-semibold text-white underline'
               >
-               Reed Exhibitions.
+              , at Reed Exhibitions.
               </UnstyledLink>
             </p>
             <p className='mt-6'>
