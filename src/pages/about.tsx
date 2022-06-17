@@ -106,7 +106,7 @@ const About = () => {
               >
                 God of War
               </UnstyledLink>{' '}
-              is the best games of all time), I love God, Good music and taking walks
+              is one of the best games of all time), I love God, Sports, Good music and taking walks
               in nature.
             </p>
           </div>

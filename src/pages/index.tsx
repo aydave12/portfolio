@@ -24,7 +24,7 @@ export default function HomePage() {
         </p>
         <p className='mt-2 text-sm text-gray-500'>
           Product-Minded Cloud & DevOps Engineer who enjoys solving problems and
-          creating value in a product.
+          creating value in a Team.
         </p>
         <a
           href='/files/Ayo_Oluyinka_Resume.pdf'
