@@ -19,7 +19,7 @@ export default function HomePage() {
       <div className='flex flex-col justify-center'>
         <h1 className='mt-4 text-6xl text-gray-100'>Ayo Oluyinka</h1>
         <p className='mt-8 text-gray-100'>
-          Cloud/ Devops Engineer at{' '}
+          Sr. Cloud/ Devops Engineer at{' '}
           <UnderlineLink href='https://rxglobal.com/'>Reed Exhibitions</UnderlineLink>
         </p>
         <p className='mt-2 text-sm text-gray-500'>

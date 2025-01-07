@@ -19,7 +19,7 @@ const jobs: Job[] = [
   {
     company: 'Reed Exhibitions',
     companyUrl: 'https://rxglobal.com',
-    role: 'Cloud / Devops Engineer',
+    role: 'Senior Cloud / Devops Engineer',
     location: 'Norwalk, CT',
     startDate: '2021-08-01',
     endDate: dayjs().format('YYYY-MM-DD'),
