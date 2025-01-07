@@ -66,7 +66,7 @@ const About = () => {
           <div className='relative h-96 overflow-hidden rounded'>
             <NextImage
               width='500'
-              src='https://media-exp1.licdn.com/dms/image/C4E03AQH8Gx5Z1NV8BQ/profile-displayphoto-shrink_800_800/0/1538532362005?e=1659571200&v=beta&t=tm1U9oARLAICwU-cBkL_gCFaHlmR000ZS0fErDacPbE'
+              src='https://media.licdn.com/dms/image/v2/D4E03AQHJl5xWnSqchA/profile-displayphoto-shrink_400_400/B4EZQwAwdaHkAg-/0/1735972293164?e=1741824000&v=beta&t=4zHLwVdYQby1tKOqiTB9k5fdpg12SwFDq-Zf_e09NDo'
               alt='Picture of the author'
               layout='fill'
               objectFit='cover'

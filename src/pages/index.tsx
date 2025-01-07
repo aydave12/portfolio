@@ -23,7 +23,7 @@ export default function HomePage() {
           <UnderlineLink href='https://rxglobal.com/'>Reed Exhibitions</UnderlineLink>
         </p>
         <p className='mt-2 text-sm text-gray-500'>
-          Product-Minded Cloud & DevOps Engineer who enjoys solving problems and
+          Product-Minded Senior Cloud & DevOps Engineer who enjoys solving problems, leading and
           creating value in a Team.
         </p>
         <a
