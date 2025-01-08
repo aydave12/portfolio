@@ -1,8 +1,6 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
   images: {
-    loader: "imgix",
-    path: '',
     domains: ["media-exp1.licdn.com"],
   },
   eslint: {
