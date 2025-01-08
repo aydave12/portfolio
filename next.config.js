@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
   images: {
+    loader: 'cloudinary',
+    path: 'https://res.cloudinary.com/demo/',
     domains: ["media-exp1.licdn.com"],
   },
   eslint: {
